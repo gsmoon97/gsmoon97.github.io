@@ -1,0 +1,57 @@
+
+import React from 'react';
+
+const Header = () => {
+  return (
+    <div className="mb-12">
+      {/* Main Hero Section - BSOD Style */}
+      <div className="text-center mb-16">
+        {/* Smiley Face */}
+        <div className="mb-8">
+          <div className="text-8xl mb-4">:(</div>
+        </div>
+        
+        {/* Main BSOD Message */}
+        <div className="space-y-6 text-xl">
+          <div>Your device ran into a problem and needs to show a portfolio.</div>
+          <div>We're just collecting some info about Geonsik Moon, and then we'll</div>
+          <div>display it for you.</div>
+        </div>
+
+        {/* Progress */}
+        <div className="mt-12 mb-8">
+          <div className="text-2xl mb-4">100% complete</div>
+        </div>
+
+        {/* QR Code Placeholder and Contact Info */}
+        <div className="mt-16 space-y-6">
+          <div className="text-left max-w-2xl mx-auto">
+            <div className="mb-4">For more information about this portfolio and possible opportunities, visit</div>
+            <div className="text-blue-200 mb-6">https://linkedin.com/in/geonsik</div>
+            
+            <div className="mb-2">If you call a recruiter, give them this info:</div>
+            <div className="bg-blue-800 border border-blue-400 px-4 py-2 inline-block">
+              <span className="font-bold">Stop code: LLM_SPECIALIST_AVAILABLE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Profile Information Box */}
+      <div className="border-2 border-blue-400 p-6 bg-blue-700 max-w-4xl mx-auto">
+        <div className="mb-4">
+          <h2 className="text-xl font-bold">GEONSIK_MOON.exe</h2>
+        </div>
+        
+        <div className="space-y-2 text-sm">
+          <div><span className="text-blue-200">Location:</span> Singapore</div>
+          <div><span className="text-blue-200">Status:</span> LLM Training Operations Specialist @ ByteDance</div>
+          <div><span className="text-blue-200">Next:</span> M.S. Computer Science @ Columbia University (Sep 2025)</div>
+          <div><span className="text-blue-200">Specialization:</span> Machine Learning, NLP, Multi-agent RL</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Header;
