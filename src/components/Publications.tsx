@@ -1,6 +1,30 @@
-
 import React from 'react';
 import { FileText, ExternalLink } from 'lucide-react';
+
+const publications = [
+  {
+    venue: "ACL 2024",
+    location: "Bangkok, Thailand",
+    papers: [
+      "From Moments to Milestones: Incremental Timeline Summarization Leveraging Large Language Models",
+      "Are Decoder-Only Language Models Better than Encoder-Only Language Models in Understanding Word Meaning?"
+    ]
+  },
+  {
+    venue: "IJCNLP-AACL 2023",
+    location: "Bali, Indonesia",
+    papers: [
+      "WAMP: Writing, Annotation, and Marking Platform"
+    ]
+  },
+  {
+    venue: "EACL 2023",
+    location: "Dubrovnik, Croatia",
+    papers: [
+      "ALLECS: A Lightweight Language Error Correction System"
+    ]
+  }
+];
 
 const Publications = () => {
   return (
@@ -11,30 +35,30 @@ const Publications = () => {
           <h2 className="text-xl font-bold">PUBLICATIONS.bib</h2>
         </div>
 
-        <div className="space-y-4">
-          <div className="border-l-2 border-blue-400 pl-4">
-            <div className="mb-2">
-              <h3 className="text-lg font-semibold">ACL 2024 Papers</h3>
-              <div className="text-blue-200 text-sm">Co-authored research publications</div>
-            </div>
-            <div className="text-sm space-y-1">
-              <div className="flex">
-                <span className="text-blue-300 mr-2">{'>'}</span>
-                <span>Timeline summarisation research</span>
+        <div className="space-y-6">
+          {publications.map((pub, index) => (
+            <div key={index} className="border-l-2 border-blue-400 pl-4">
+              <div className="mb-2">
+                <h3 className="text-lg font-semibold">{pub.venue}</h3>
+                <div className="text-blue-200 text-sm">{pub.location}</div>
               </div>
-              <div className="flex">
-                <span className="text-blue-300 mr-2">{'>'}</span>
-                <span>Word semantics analysis</span>
+              <div className="text-sm space-y-1">
+                {pub.papers.map((title, i) => (
+                  <div key={i} className="flex">
+                    <span className="text-blue-300 mr-2">{'>'}</span>
+                    <span><strong>{title}</strong></span>
+                  </div>
+                ))}
               </div>
             </div>
-          </div>
+          ))}
 
           <div className="border-l-2 border-blue-400 pl-4">
             <div className="flex items-center gap-2 mb-2">
               <ExternalLink className="w-4 h-4" />
-              <a 
-                href="https://scholar.google.com/citations?user=si3AXV8AAAAJ&hl=en" 
-                target="_blank" 
+              <a
+                href="https://scholar.google.com/citations?user=si3AXV8AAAAJ&hl=en"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-200 hover:text-white underline transition-colors"
               >
@@ -49,9 +73,9 @@ const Publications = () => {
           <div className="bg-blue-800 p-4 rounded border border-blue-500">
             <div className="text-sm text-blue-200 mb-2">DEBUG_INFO:</div>
             <div className="text-xs space-y-1">
-              <div>Research focus: Machine Learning, NLP, Multi-agent RL</div>
-              <div>Publication venues: ACL, computational linguistics conferences</div>
-              <div>Collaboration: ByteDance research team</div>
+              <div>Research alignment: NLP meets LLMs, with a side quest in GEC tooling.</div>
+              <div>Published across top-tier venues: ACL, EACL, IJCNLP-AACL.</div>
+              <div>Field-tested with LoRA, LangChain, and ChromaDB.</div>
             </div>
           </div>
         </div>

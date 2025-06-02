@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { ExternalLink } from 'lucide-react';
 
 const Header = () => {
   return (
@@ -8,13 +8,13 @@ const Header = () => {
       <div className="text-center mb-16">
         {/* Smiley Face */}
         <div className="mb-8">
-          <div className="text-8xl mb-4">:(</div>
+          <div className="text-8xl mb-4">:)</div>
         </div>
         
         {/* Main BSOD Message */}
         <div className="space-y-6 text-xl">
           <div>Your device ran into a problem and needs to show a portfolio.</div>
-          <div>We're just collecting some info about Geonsik Moon, and then we'll</div>
+          <div>We're just collecting some info about <strong>"Geonsik Moon"</strong>, and then we'll</div>
           <div>display it for you.</div>
         </div>
 
@@ -26,8 +26,18 @@ const Header = () => {
         {/* QR Code Placeholder and Contact Info */}
         <div className="mt-16 space-y-6">
           <div className="text-left max-w-2xl mx-auto">
-            <div className="mb-4">For more information about this portfolio and possible opportunities, visit</div>
-            <div className="text-blue-200 mb-6">https://linkedin.com/in/geonsik</div>
+            <div className="mb-4">For more information about this portfolio and possible opportunities,</div>
+            <div className="flex items-center gap-2 mb-6">
+              <ExternalLink className="w-4 h-4" />
+              <a
+                href="https://linkedin.com/in/gsmoon97"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-200 hover:text-white underline transition-colors"
+              >
+                View full profile on LinkedIn
+              </a>
+            </div>
             
             <div className="mb-2">If you call a recruiter, give them this info:</div>
             <div className="bg-blue-800 border border-blue-400 px-4 py-2 inline-block">
@@ -47,7 +57,7 @@ const Header = () => {
           <div><span className="text-blue-200">Location:</span> Singapore</div>
           <div><span className="text-blue-200">Status:</span> LLM Training Operations Specialist @ ByteDance</div>
           <div><span className="text-blue-200">Next:</span> M.S. Computer Science @ Columbia University (Sep 2025)</div>
-          <div><span className="text-blue-200">Specialization:</span> Machine Learning, NLP, Multi-agent RL</div>
+          <div><span className="text-blue-200">Specialization:</span> AI/ML, LLM, NLP</div>
         </div>
       </div>
     </div>
