@@ -41,7 +41,7 @@ const Header = () => {
             
             <div className="mb-2">If you call a recruiter, give them this info:</div>
             <div className="bg-blue-800 border border-blue-400 px-4 py-2 inline-block">
-              <span className="font-bold">Stop code: LLM_SPECIALIST_AVAILABLE</span>
+              <span className="font-bold">Stop code: POTENTIAL_CANDIDATE_ALERT</span>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Header = () => {
           <div><span className="text-blue-200">Location:</span> Singapore</div>
           <div><span className="text-blue-200">Status:</span> LLM Training Operations Specialist @ ByteDance</div>
           <div><span className="text-blue-200">Next:</span> M.S. Computer Science @ Columbia University (Sep 2025)</div>
-          <div><span className="text-blue-200">Specialization:</span> AI/ML, LLM, NLP</div>
+          <div><span className="text-blue-200">Specialization:</span> AI/ML, Database Systems, LLM, NLP</div>
         </div>
       </div>
     </div>

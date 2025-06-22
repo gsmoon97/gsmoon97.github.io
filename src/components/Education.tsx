@@ -3,7 +3,7 @@ import { GraduationCap } from 'lucide-react';
 
 const education = [
   {
-    degree: "M.S. Computer Science (Machine Learning Track)",
+    degree: "M.S. Computer Science",
     school: "Columbia University",
     location: "New York, NY",
     period: "Starting Sep 2025",

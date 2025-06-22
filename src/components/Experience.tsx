@@ -8,10 +8,9 @@ const experience = [
     location: "Singapore",
     period: "May 2024 – Present",
     bullets: [
-      "Directed an end-to-end RL data pipeline with ~100 annotators, weekly vendor calibrations, and production-incident triage, delivering 10K+ test cases for LLMs on competitive programming.",
-      "Managed a Supervised Fine-Tuning (SFT) project with 2K+ curated examples for code tasks in Python, JS, SQL, and Go.",
-      "Diagnosed model failure modes from 3K+ evaluation outputs and proposed patch roadmaps based on root cause analysis.",
-      "Built automation tools and prompt templates for training workflow: data conversion, adversarial filtering, and metric extraction."
+      "Managed an end-to-end training data pipeline for Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) projects to improve the model's performance in solving coding tasks",
+      // "Collaborated with Subject Matter Experts (SMEs) to diagnose model failure modes and translate insights into actionable root-cause reports and patch roadmaps",
+      // "Streamlined training workflows by building Python automation and prompt-engineering templates cutting manual overhead while standardizing quality controls"
     ]
   },
   {
@@ -20,10 +19,9 @@ const experience = [
     location: "Singapore",
     period: "Sep 2022 – Feb 2024",
     bullets: [
-      "Co-authored two ACL 2024 papers on timeline summarization and word semantics.",
-      "Fine-tuned LLMs (Llama 2, Mistral, FLAN-T5) with LoRA + 4-bit QLoRA and tuned hyperparameters using Weights & Biases.",
-      "Built LangChain + ChromaDB pipelines for LLM-based pairwise clustering; deployed scalable NLP systems for GEC with Flask and Docker.",
-      "Published system demos at EACL 2023 and IJCNLP-AACL 2023 on GEC applications."
+      "Drove cutting-edge LLM research, co-authoring four peer-reviewed papers (ACL '24, EACL '23, IJCNLP-AACL '23) that advanced state-of-the-art timeline summarization, lexical semantics, and real-time GEC systems",
+      // "Built and fine-tuned open-source models (Mistral, Llama 2, FLAN-T5) with LangChain, ChromaDB, and LoRA-based PEFT (4-bit) while orchestrating hyper-parameter sweeps in Weights & Biases to maximise downstream task performance",
+      // "Engineered scalable NLP web applications and containerised microservices that deliver efficient GEC and incremental clustering, integrating LLM-powered pairwise classification into production pipelines",
     ]
   },
   {
@@ -32,9 +30,9 @@ const experience = [
     location: "Singapore",
     period: "May 2022 – Sep 2022",
     bullets: [
-      "Worked with the Global Siri Team to fine-tune model inputs and conduct in-depth error analyses for improving NLU accuracy.",
-      "Implemented transformer-based data augmentation (BERT, T5) using back-translation and paraphrasing.",
-      "Automated dialogue optimization pipeline with Python scripts and regex, reducing noise in utterances by ~30%."
+      "Enhanced Siri's natural-language understanding by conducting systematic error analyses and fine-tuning model inputs, boosting intent-resolution accuracy and response relevance",
+      // "Expanded multilingual coverage through transformer-based synthetic data augmentation (BERT, T5), applying back-translation and context-aware paraphrasing to preserve semantic integrity",
+      // "Cut extraneous utterances by ~30% and sped up responses by automating a dialogue-optimization pipeline with scheduled Python scripts and regex-driven filtering"
     ]
   }
 ];

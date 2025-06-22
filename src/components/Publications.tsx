@@ -53,29 +53,26 @@ const Publications = () => {
             </div>
           ))}
 
-          <div className="border-l-2 border-blue-400 pl-4">
-            <div className="flex items-center gap-2 mb-2">
-              <ExternalLink className="w-4 h-4" />
-              <a
-                href="https://scholar.google.com/citations?user=si3AXV8AAAAJ&hl=en"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-200 hover:text-white underline transition-colors"
-              >
-                View full publications on Google Scholar
-              </a>
-            </div>
-            <div className="text-sm text-blue-300">
-              User ID: si3AXV8AAAAJ
-            </div>
-          </div>
-
           <div className="bg-blue-800 p-4 rounded border border-blue-500">
             <div className="text-sm text-blue-200 mb-2">DEBUG_INFO:</div>
             <div className="text-xs space-y-1">
-              <div>Research alignment: NLP meets LLMs, with a side quest in GEC tooling.</div>
+              {/* <div>Research alignment: NLP meets LLMs, with a side quest in GEC tooling.</div>
               <div>Published across top-tier venues: ACL, EACL, IJCNLP-AACL.</div>
-              <div>Field-tested with LoRA, LangChain, and ChromaDB.</div>
+              <div>Field-tested with LoRA, LangChain, and ChromaDB.</div> */}
+              <div className="flex items-center gap-2 mt-3">
+                <ExternalLink className="w-3 h-3" />
+                <a
+                  href="https://scholar.google.com/citations?user=si3AXV8AAAAJ&hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-200 hover:text-white underline transition-colors"
+                >
+                  View full publications on Google Scholar
+                </a>
+              </div>
+              <div className="text-blue-300">
+                User ID: si3AXV8AAAAJ
+              </div>
             </div>
           </div>
         </div>

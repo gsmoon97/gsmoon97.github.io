@@ -2,17 +2,25 @@ import React, { useEffect, useState } from 'react';
 import { AlertTriangle, Github, Mail } from 'lucide-react';
 
 const diagnostics = [
-  "Need help decoding this resume? Ping me. If not, may your LLMs overfit gracefully.",
   "System idle. Awaiting recruiter input...",
   "Ping me before my RAM gets overwritten.",
   "Portfolio checksum verified. Integrity: 100%",
   "If found, return to `/dev/hire`.",
   "Warning: High potential detected. Deploy carefully.",
-  "All neurons are firing. Awaiting prompt.",
+  "All neurons are firing. Awaiting prompt...",
   "Impostor syndrome: disabled 🔒",
-  "LLM alignment successful. Personality: witty.",
-  "Sleep schedule not found. Continuing execution anyway.",
+  "Sleep schedule not found. Continuing execution anyway...",
   "You’ve reached the edge of the portfolio. There is no escape.",
+  "Token limit reached. Awaiting recruiter prompt engineering...",
+  "Inference mode:ON | Latency: patient | Salary: negotiable",
+  "Context window clear. Ready for new parameters (benefits included)...",
+  "Model warmed-up and cached. No cold-start fees apply.",
+  "Guardrails active. Hallucinations redirected to /trash/bin.",
+  "Fine-tuned on coffee and constructive feedback.",
+  "Zero-shot interview prep complete. Continuing to few-shot mode...",
+  "Adversarial questions detected. Responding with calibrated confidence...",
+  "GPU idle. Optimize resource utilization: hire me.",
+  "Safety layer passed. Output deemed HR-friendly.",
 ];
 
 const FunnyFooter = () => {
