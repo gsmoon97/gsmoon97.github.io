@@ -54,9 +54,9 @@ const Header = () => {
         </div>
         
         <div className="space-y-2 text-sm">
-          <div><span className="text-blue-200">Location:</span> Singapore</div>
-          <div><span className="text-blue-200">Status:</span> LLM Training Operations Specialist @ ByteDance</div>
-          <div><span className="text-blue-200">Next:</span> M.S. Computer Science @ Columbia University (Sep 2025)</div>
+          <div><span className="text-blue-200">Location:</span> New York, NY</div>
+          <div><span className="text-blue-200">Current:</span> M.S. Computer Science (ML Track) @ Columbia University (Expected Dec 2026)</div>
+          <div><span className="text-blue-200">Next:</span> Looking for full-time summer internship (Summer 2026)</div>
           <div><span className="text-blue-200">Specialization:</span> AI/ML, Database Systems, LLM, NLP</div>
         </div>
       </div>

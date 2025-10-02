@@ -6,19 +6,19 @@ const education = [
     degree: "M.S. Computer Science",
     school: "Columbia University",
     location: "New York, NY",
-    period: "Starting Sep 2025",
+    period: "Sep 2025 - Dec 2026 (Expected)",
     bullets: [
-      "Track: Machine Learning"
+      "Machine Learning Track"
     ]
   },
   {
     degree: "B.Comp. Computer Science (Honors)",
     school: "National University of Singapore",
     location: "Singapore",
-    period: "Aug 2019  Jun 2022",
+    period: "Aug 2019 - Jun 2022",
     bullets: [
-      "Awarded Certificate of Distinction in Artificial Intelligence Focus Area.",
-      "Awarded Certificate of Merit in Database Systems Focus Area."
+      "Awarded Certificate of Distinction in Artificial Intelligence Focus Area",
+      "Awarded Certificate of Merit in Database Systems Focus Area"
     ]
   }
 ];
@@ -38,10 +38,10 @@ const Education = () => {
               <div className="mb-2">
                 <div className="flex items-center gap-2 mb-1">
                   <GraduationCap className="w-4 h-4" />
-                  <h3 className="text-lg font-semibold">{edu.degree}</h3>
+                  <h3 className="text-lg font-semibold">{edu.school}</h3>
                 </div>
                 <div className="text-blue-200 text-sm">
-                  <span>{edu.school}</span> | <span>{edu.location}</span> | <span>{edu.period}</span>
+                  <span>{edu.degree}</span> | <span>{edu.location}</span> | <span>{edu.period}</span>
                 </div>
               </div>
 

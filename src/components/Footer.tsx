@@ -41,14 +41,26 @@ const FunnyFooter = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
           <div className="flex items-center gap-2">
-            <Github className="w-4 h-4" />
+            <Github className="w-4 h-4 text-blue-200" />
             <span className="text-blue-200">GitHub:</span>
-            <span className="hover:underline hover:text-white transition">github.com/gsmoon97</span>
+            <a
+              href="https://github.com/gsmoon97"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline hover:text-white transition text-blue-200"
+            >
+              github.com/gsmoon97
+            </a>
           </div>
           <div className="flex items-center gap-2">
-            <Mail className="w-4 h-4" />
+            <Mail className="w-4 h-4 text-blue-200" />
             <span className="text-blue-200">Email:</span>
-            <span className="hover:underline hover:text-white transition">geonsik.moon@columbia.edu</span>
+            <a
+              href="mailto:geonsik.moon@columbia.edu"
+              className="hover:underline hover:text-white transition text-blue-200"
+            >
+              geonsik.moon@columbia.edu
+            </a>
           </div>
         </div>
       </div>
@@ -57,7 +69,7 @@ const FunnyFooter = () => {
         <div className="border-t-2 border-blue-400 pt-4">
           <div className="text-blue-200 italic">{message}</div>
           <div className="text-xs mt-2 opacity-75">
-            SYSTEM: PORTFOLIO_OS v2024.12 · Build: BSOD_THEME_v1.0 · Stability: Unstable but compiling...
+            SYSTEM: PORTFOLIO_OS v2025.10 · Build: BSOD_THEME_v1.0 · Stability: Unstable but compiling...
           </div>
         </div>
       </div>
