@@ -8,7 +8,9 @@ const education = [
     location: "New York, NY",
     period: "Sep 2025 - Dec 2026 (Expected)",
     bullets: [
-      "Machine Learning Track"
+      "Machine Learning Track",
+      "IBM Research Project Collaboration on Granite Speech Model Optimization",
+      "Relevant Coursework: High Performance Machine Learning, Neural Networks & Deep Learning"
     ]
   },
   {
@@ -18,7 +20,8 @@ const education = [
     period: "Aug 2019 - Jun 2022",
     bullets: [
       "Awarded Certificate of Distinction in Artificial Intelligence Focus Area",
-      "Awarded Certificate of Merit in Database Systems Focus Area"
+      "Awarded Certificate of Merit in Database Systems Focus Area",
+      "Relevant Coursework: Machine Learning, Artificial Intelligence, Natural Language Processing, Computer Vision and Pattern Recognition, Database Systems, Big Data Systems for Data Science"
     ]
   }
 ];

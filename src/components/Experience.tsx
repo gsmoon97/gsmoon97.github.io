@@ -6,7 +6,7 @@ const experience = [
     title: "LLM Training Operations Specialist",
     company: "ByteDance",
     location: "Singapore",
-    period: "May 2024 – Present",
+    period: "May 2024 – Aug 2025",
     bullets: [
       "Managed an end-to-end training data pipeline for Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) projects to improve the model's performance in solving coding tasks",
       // "Collaborated with Subject Matter Experts (SMEs) to diagnose model failure modes and translate insights into actionable root-cause reports and patch roadmaps",
