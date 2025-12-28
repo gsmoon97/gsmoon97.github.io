@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Download } from 'lucide-react';
 
 const Header = () => {
   return (
@@ -38,7 +38,19 @@ const Header = () => {
                 View full profile on LinkedIn
               </a>
             </div>
-            
+
+            <div className="flex items-center gap-2 mb-6">
+              <Download className="w-4 h-4" />
+              <a
+                href="/Geonsik_Moon_Resume.pdf"
+                download
+                className="text-blue-200 hover:text-white underline transition-colors"
+              >
+                Download Resume
+              </a>
+              <span className="text-blue-200 text-sm ml-2">(Last updated: December 2025)</span>
+            </div>
+
             <div className="mb-2">If you call a recruiter, give them this info:</div>
             <div className="bg-blue-800 border border-blue-400 px-4 py-2 inline-block">
               <span className="font-bold">Stop code: POTENTIAL_CANDIDATE_ALERT</span>
@@ -55,8 +67,8 @@ const Header = () => {
         
         <div className="space-y-2 text-sm">
           <div><span className="text-blue-200">Location:</span> New York, NY</div>
-          <div><span className="text-blue-200">Current:</span> M.S. Computer Science (ML Track) @ Columbia University (Expected Dec 2026)</div>
-          <div><span className="text-blue-200">Next:</span> Looking for full-time summer internship (Summer 2026)</div>
+          <div><span className="text-blue-200">Current:</span> M.S. Computer Science (ML Track) @ Columbia University (Expected to graduate in Dec 2026)</div>
+          <div><span className="text-blue-200">Next:</span> Looking for a full-time job (Expected to start from Jan 2027)</div>
           <div><span className="text-blue-200">Specialization:</span> AI/ML, Database Systems, LLM, NLP</div>
         </div>
       </div>
