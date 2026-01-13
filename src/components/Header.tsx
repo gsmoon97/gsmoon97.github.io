@@ -48,7 +48,7 @@ const Header = () => {
               >
                 Download Resume
               </a>
-              <span className="text-blue-200 text-sm ml-2">(Last updated: December 2025)</span>
+              <span className="text-blue-200 text-sm ml-2">(Last updated: January 2026)</span>
             </div>
 
             <div className="mb-2">If you call a recruiter, give them this info:</div>
