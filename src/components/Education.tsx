@@ -8,9 +8,10 @@ const education = [
     location: "New York, NY",
     period: "Sep 2025 - Dec 2026 (Expected)",
     bullets: [
-      "Machine Learning Track",
-      "IBM Research Project Collaboration on Granite Speech Model Optimization",
-      "Relevant Coursework: High Performance Machine Learning, Neural Networks & Deep Learning"
+      "Specialization: Machine Learning Track",
+      "Teaching Assistant: High Performance Machine Learning (COMS 6998) with Prof. K. El Maghraoui",
+      "Research Collaboration: Optimizing Granite Speech Model architectures with IBM Research",
+      "Relevant Coursework: High Performance Machine Learning (A+), Neural Networks & Deep Learning (A)",
     ]
   },
   {
@@ -21,7 +22,7 @@ const education = [
     bullets: [
       "Awarded Certificate of Distinction in Artificial Intelligence Focus Area",
       "Awarded Certificate of Merit in Database Systems Focus Area",
-      "Relevant Coursework: Machine Learning, Artificial Intelligence, Natural Language Processing, Computer Vision and Pattern Recognition, Database Systems, Big Data Systems for Data Science"
+      "Relevant Coursework: Artificial Intelligence, Natural Language Processing, Computer Vision and Pattern Recognition, Database Systems, Big Data Systems for Data Science",
     ]
   }
 ];

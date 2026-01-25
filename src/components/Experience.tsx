@@ -3,12 +3,12 @@ import { Briefcase } from 'lucide-react';
 
 const experience = [
   {
-    title: "LLM Training Operations Specialist",
+    title: "LLM Training Operation Specialist",
     company: "ByteDance",
     location: "Singapore",
     period: "May 2024 – Aug 2025",
     bullets: [
-      "Managed an end-to-end training data pipeline for Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) projects to improve the model's performance in solving coding tasks",
+      "Managed end-to-end training data pipelines for Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) projects to improve the model's performance in solving coding tasks",
       // "Collaborated with Subject Matter Experts (SMEs) to diagnose model failure modes and translate insights into actionable root-cause reports and patch roadmaps",
       // "Streamlined training workflows by building Python automation and prompt-engineering templates cutting manual overhead while standardizing quality controls"
     ]
@@ -19,7 +19,7 @@ const experience = [
     location: "Singapore",
     period: "Sep 2022 – Feb 2024",
     bullets: [
-      "Drove cutting-edge LLM research, co-authoring four peer-reviewed papers (ACL '24, EACL '23, IJCNLP-AACL '23) that advanced state-of-the-art timeline summarization, lexical semantics, and real-time GEC systems",
+      "Drove cutting-edge LLM research, co-authoring four peer-reviewed papers (ACL '24, EACL '23, IJCNLP-AACL '23) that advanced state-of-the-art downstream tasks such as timeline summarization, word semantic understanding, and grammatical error correction",
       // "Built and fine-tuned open-source models (Mistral, Llama 2, FLAN-T5) with LangChain, ChromaDB, and LoRA-based PEFT (4-bit) while orchestrating hyper-parameter sweeps in Weights & Biases to maximise downstream task performance",
       // "Engineered scalable NLP web applications and containerised microservices that deliver efficient GEC and incremental clustering, integrating LLM-powered pairwise classification into production pipelines",
     ]
