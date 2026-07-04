@@ -143,11 +143,11 @@ export const publications: PublicationGroup[] = [
     papers: [
       {
         title: "From Moments to Milestones: Incremental Timeline Summarization Leveraging Large Language Models",
-        url: "https://aclanthology.org/2024.findings-acl.967.pdf",
+        url: "https://aclanthology.org/2024.acl-long.390.pdf",
       },
       {
         title: "Are Decoder-Only Language Models Better than Encoder-Only Language Models in Understanding Word Meaning?",
-        url: "https://aclanthology.org/2024.acl-long.390.pdf",
+        url: "https://aclanthology.org/2024.findings-acl.967.pdf",
       },
     ],
   },
