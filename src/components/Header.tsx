@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExternalLink, Download } from 'lucide-react';
+import { profile } from '@/data/resume';
 
 const Header = () => {
   return (
@@ -10,11 +11,11 @@ const Header = () => {
         <div className="mb-8">
           <div className="text-8xl mb-4">:)</div>
         </div>
-        
+
         {/* Main BSOD Message */}
         <div className="space-y-6 text-xl">
           <div>Your device ran into a problem and needs to show a portfolio.</div>
-          <div>We're just collecting some info about <strong>"Geonsik Moon"</strong>, and then we'll</div>
+          <div>We're just collecting some info about <strong>"{profile.name}"</strong>, and then we'll</div>
           <div>display it for you.</div>
         </div>
 
@@ -30,10 +31,10 @@ const Header = () => {
             <div className="flex items-center gap-2 mb-6">
               <ExternalLink className="w-4 h-4" />
               <a
-                href="https://linkedin.com/in/gsmoon97"
+                href={profile.links.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-200 hover:text-white underline transition-colors"
+                className="text-white underline hover:text-blue-200 transition-colors"
               >
                 View full profile on LinkedIn
               </a>
@@ -42,13 +43,13 @@ const Header = () => {
             <div className="flex items-center gap-2 mb-6">
               <Download className="w-4 h-4" />
               <a
-                href="/Geonsik_Moon_Resume.pdf"
+                href={profile.resume.href}
                 download
-                className="text-blue-200 hover:text-white underline transition-colors"
+                className="text-white underline hover:text-blue-200 transition-colors"
               >
                 Download Resume
               </a>
-              <span className="text-blue-200 text-sm ml-2">(Last updated: Jun 2026)</span>
+              <span className="text-blue-100 text-sm ml-2">(Last updated: {profile.resume.lastUpdated})</span>
             </div>
 
             <div className="mb-2">If you call a recruiter, give them this info:</div>
@@ -64,12 +65,13 @@ const Header = () => {
         <div className="mb-4">
           <h2 className="text-xl font-bold">GEONSIK_MOON.exe</h2>
         </div>
-        
+
         <div className="space-y-2 text-sm">
-          <div><span className="text-blue-200">Location:</span> New York, NY</div>
-          <div><span className="text-blue-200">Current:</span> M.S. Computer Science (ML Track) @ Columbia University (Expected to graduate in Dec 2026)</div>
-          <div><span className="text-blue-200">Next:</span> Looking for a full-time job (Expected to start from Jan 2027)</div>
-          <div><span className="text-blue-200">Specialization:</span> AI/ML, Database Systems, LLM, NLP</div>
+          {profile.status.map((item, index) => (
+            <div key={index}>
+              <span className="text-blue-200">{item.label}:</span> {item.value}
+            </div>
+          ))}
         </div>
       </div>
     </div>
